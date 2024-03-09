@@ -102,7 +102,7 @@ func (s *ServerHandler) handleWebSocket(w http.ResponseWriter, r *http.Request) 
 // Usage menampilkan cara penggunaan aplikasi
 func Usage() {
 	fmt.Println("Websocket Goproxy By FN Project")
-	fmt.Println("Report Bug Mail: fn@funy.biz.id")
+	fmt.Println("Report Bug Mail: lumine@rerechan02.com")
 	fmt.Println("\nUsage:")
 	flag.PrintDefaults()
 }
