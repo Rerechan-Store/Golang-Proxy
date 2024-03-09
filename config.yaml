@@ -1,0 +1,12 @@
+# FN Project
+# Konfigurasi untuk Proxy Server
+
+# SSH WS HTTP
+address: 127.0.0.1:109
+portws: 80
+
+# SSH WS HTTPS
+address: 127.0.0.1:143
+porthttps: 443
+cert: /etc/xray/xray.crt
+key: /etc/xray/xray.key
